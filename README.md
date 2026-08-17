@@ -23,6 +23,14 @@ Several tracts near the University of Minnesota showed gap rates above 90% despi
 
 The recommendation: Hennepin County should shift toward tract-level, community-based outreach rather than city-level strategy - including targeted campus outreach near the University of Minnesota and closer coordination with rural western Hennepin communities on transportation and application support.
 
+**City-wide averages vs. individual tract gap rates:**
+
+![City-wide average gap rate vs. individual tract gap rates](images/city_vs_tract_gap.png)
+
+**What predicts a high-gap tract:**
+
+![Random forest variable importance](images/variable_importance.png)
+
 #### Files
 
 `report/IVB_Project_Report.pdf` - the full written report.
@@ -35,3 +43,4 @@ The recommendation: Hennepin County should shift toward tract-level, community-b
 #### Tech
 
 R (tidyverse, sf, randomForest, rpart)
+      

@@ -2,6 +2,8 @@
 
 Group capstone project for DST 490, by **Brandon Bloss, Ini Udomah, and Vincent Rupp**.
 
+**[View the live interactive map →](https://vjrupp49.github.io/hennepin-county-snap-mfip-analysis/IVB_Map_1.html)** | **[Read the full report (PDF)](report/IVB_Project_Report.pdf)**
+
 #### The question
 
 To what extent do municipal boundaries hide hyper-local SNAP and MFIP participation hotspots, and how has the density of that unmet need changed over time across Hennepin County post-COVID, from 2020 to 2025?
@@ -36,6 +38,7 @@ The recommendation: Hennepin County should shift toward tract-level, community-b
 `report/IVB_Project_Report.pdf` - the full written report.
 `scripts/IVB_Decision_Tree.R` - decision tree model.
 `scripts/IVB_Map_1.R` - the tract-level gap map (also extended individually as an interactive version in the [Data Visualization Portfolio](https://github.com/vjrupp49/data-visualization-portfolio) repo).
+`docs/IVB_Map_1.html` - the rendered, standalone version of that interactive map, hosted live via GitHub Pages (linked at the top of this README).
 `scripts/municipality_boxplots.R` - city-level boxplot visualization of tract-level gap spread.
 `data/hennepin_snap_mfip_tract_reva.csv` - the tract-level SNAP/MFIP dataset used throughout.
 `images/` - key result visualizations from the analysis.

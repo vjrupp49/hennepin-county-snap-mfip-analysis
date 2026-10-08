@@ -2,7 +2,9 @@
 
 Group capstone project for DST 490, by **Brandon Bloss, Ini Udomah, and Vincent Rupp**.
 
-**[View the live interactive map →](https://vjrupp49.github.io/hennepin-county-snap-mfip-analysis/IVB_Map_1.html)** | **[Read the full report (PDF)](report/IVB_Project_Report.pdf)**
+**[Read the full report (PDF)](report/IVB_Project_Report.pdf)**
+
+![Tract-level SNAP/MFIP gap rate across Hennepin County, all years 2020-2025 (static screenshot of the interactive map built in `scripts/IVB_Map_1.R`)](images/gap_map_static.png)
 
 #### The question
 
@@ -35,13 +37,20 @@ The recommendation: Hennepin County should shift toward tract-level, community-b
 
 #### Files
 
-`report/IVB_Project_Report.pdf` - the full written report.
-`scripts/IVB_Decision_Tree.R` - decision tree model.
-`scripts/IVB_Map_1.R` - the tract-level gap map (also extended individually as an interactive version in the [Data Visualization Portfolio](https://github.com/vjrupp49/data-visualization-portfolio) repo).
-`docs/IVB_Map_1.html` - the rendered, standalone version of that interactive map, hosted live via GitHub Pages (linked at the top of this README).
-`scripts/municipality_boxplots.R` - city-level boxplot visualization of tract-level gap spread.
-`data/hennepin_snap_mfip_tract_reva.csv` - the tract-level SNAP/MFIP dataset used throughout.
-`images/` - key result visualizations from the analysis.
+- `report/IVB_Project_Report.pdf`: the full written report.
+- `scripts/IVB_Decision_Tree.R`: decision tree and random forest models.
+- `scripts/IVB_Map_1.R`: builds the tract-level gap map (interactive in R; the screenshot above is a static capture of it).
+- `scripts/municipality_boxplots.R`: city-level boxplots of how much tract-level gap rates vary inside each city.
+- `images/`: key result figures.
+- `data/README.md`: what the input data is and why it isn't included.
+
+#### Data
+
+The analysis uses Hennepin County's tract-level SNAP and MFIP enrollment counts (provided to the group for the capstone) combined with American Community Survey 5-year estimates (income, poverty, race, education, age, employment, housing). The county dataset is not redistributed here, so the scripts will not run as-is; the report, figures and screenshot above show the results. Column names the scripts expect are listed in `data/README.md`.
+
+#### Team and credits
+
+Group capstone for DST 490 by Brandon Bloss, Ini Udomah and Vincent Rupp. The municipality boxplots and the interactive tract map were also developed further by Vincent as individual extensions of the shared dataset.
 
 #### Tech
 

@@ -1,0 +1,8 @@
+# raw/provided data is never committed
+data/*.csv
+data/*.xlsx
+*.rds
+.Rhistory
+.RData
+.Rproj.user/
+.DS_Store

@@ -4,7 +4,7 @@ library(sf)
 library(ggplot2)
 
 ### Load In Data ###
-snap_raw <- read_csv("scripts/hennepin_snap_mfip_tract_reva.csv_tract_reva.csv")
+snap_raw <- read_csv("data/hennepin_snap_mfip_tract_reva.csv")  # county data, not included (see data/README.md)
 
 ### Remove Garbage NA Rows ###
 snap_clean <- snap_raw |>

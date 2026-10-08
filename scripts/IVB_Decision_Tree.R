@@ -16,7 +16,7 @@ library(tidycensus)
 ### 1. LOAD DATA
 ############################################################
 
-snap_raw <- read_csv("scripts/hennepin_snap_mfip_tract_reva.csv", show_col_types = FALSE)
+snap_raw <- read_csv("data/hennepin_snap_mfip_tract_reva.csv", show_col_types = FALSE)  # county data, not included (see data/README.md)
 
 tracts <- st_read("scripts/tl_2020_27_tract/tl_2020_27_tract.shp", quiet = TRUE)
 municipalities <- st_read("scripts/tl_2020_27_place/tl_2020_27_place.shp", quiet = TRUE)
